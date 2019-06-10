@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- JQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha383-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg3Va+PmSTsz/K68vbdEjh3u" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Relógio</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu">
+                Draggable Widgets
+            </div>
+        </div>
+        <div id="droppable">
+            <div class="row" id="wid-container">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wid" draggable="true">
+                    <!-- dias da semana nao devem estar fixos em portugues-->
+                    <div clas="col-xs-12 col-sm-12 col-sm-12 col-md-12">
+                        <span class="dia" id="0">Domingo</span>
+                        <span class="dia" id="1">Segunda</span>
+                        <span class="dia" id="2">Terça</span>
+                        <span class="dia" id="3">Quarta</span>
+                        <span class="dia" id="3">Quinta</span>
+                        <span class="dia" id="5">Sexta</span>
+                        <span class="dia" id="6">Sábado</span>
+                    </div>
+                    <div class="row" id="relogio">
+                        <div class="col-xs-3 col-sm-3 col-sm-3 col-md-3 caixa" id="horas"></div>
+                        <div class="col-xs-1 col-sm-1 col-sm-1 col-md-1 ponto">:</div>
+                        <div class="col-xs-3 col-sm-3 col-sm-3 col-md-3 caixa" id="minutos"></div>
+                        <div class="col-xs-1 col-sm-1 col-sm-1 col-md-1 ponto">:</div>
+                        <div class="col-xs-3 col-sm-3 col-sm-3 col-md-3 caixa" id="segundos"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wid" id="termometro" draggable="true">
+                    <div class="row">
+                        <div class="temperatura">
+                            <div id="txtTemp">
+                                <div id="temp"></div>
+                                <div id="nomeClima"></div>
+                            </div>
+                            <div id="icone">
+                                <img src="" alt="" id="iclima">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

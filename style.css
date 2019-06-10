@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+html, body, .container-fluid {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    overflow: hidden;
+    color: #575454;   
+}
+
+/* TODO Substituir pelo menu do bs */
+.menu {
+    height: 60px;
+    background-color: salmon;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4vh;
+}
+
+#droppable {
+    margin-top: 1%;
+    min-height: 100%; 
+}
+.wid {
+    width: 400px !important;
+    height: 250px;
+    margin: 1%;
+    background-color: salmon;
+    border-radius: 10px;
+}
+
+/* RELÓGIO */
+#dias{
+    min-width: 100%;
+    height: 20%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.dia{
+    width: 10%;
+    font-size: 1em;
+}
+
+.diaAtual{
+    background-color: #575454; 
+    color: salmon;
+}
+
+#relogio {
+    padding-top: 10px;
+    margin-top: 10%;
+}
+
+.ponto{
+    font-size: 4em;
+    color: #575454;  
+}
+
+.caixa {
+    font-size: 4em;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+
+/* TERMÔMETRO */
+#termometro{
+    text-align: center;
+}
+.temperatura{
+    padding-top: 20px;
+}
+.icone {
+    margin-left: 45%;
+    margin-bottom: 15%; 
+}
+#iclima {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#txtTemp {
+    font-size: 1.7em;
+}
